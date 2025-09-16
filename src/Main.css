@@ -1,0 +1,42 @@
+/* Global Styles for the Music Website */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.page {
+  padding: 30px;
+}
+
+.home-page,
+.explore-page,
+.playlist-page,
+.library-page,
+.profile-page,
+.auth-page {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease;
+}
+
+button {
+  background-color: #ff4b2b;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}
